@@ -1,5 +1,6 @@
 html{
     min-height: 100%;
+    scroll-behavior: smooth;
 }
 body {
         background-image: linear-gradient(to bottom right, rgb(12, 12, 12), rgb(148, 148, 147));
@@ -71,10 +72,6 @@ img {
     .Navigation:hover{
     background-color: gray;
     color: black;
-    }
-    .Navigation:visited {
-    background-color: gray;
-    color:black;
     }
 .informationdiv {
     display:contents;
